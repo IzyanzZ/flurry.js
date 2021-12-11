@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: 'Readex Pro', sans-serif;
+        }
+
+        body {
+            background-color: rgb(252, 252, 252);
+        }
+
+        .top {
+            background-color: rgb(0, 0, 0);
+            color: rgb(131, 129, 129);
+            height: 8px;
+        }
+
+        .down {
+            background-color: rgb(122, 191, 255);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 24px;
+            padding: 5px;
+            margin-bottom: 25px;
+        }
+
+        .mb {
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-family: sans-serif;
+        }
+
+        a {
+            color: rgb(94, 204, 255);
+            transition: 0.2s;
+        }
+
+        a:hover {
+            color: rgb(104, 104, 104);
+        }
+
+        code {
+            background: #ffeff0;
+            word-wrap: break-word;
+            box-decoration-break: clone;
+            padding: .1rem .3rem .2rem;
+            border-radius: .2rem;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="top"><br></nav>
+    <nav class="down">
+        <ul>
+            Flurry JS
+        </ul>
+    </nav>
+    <%- body %>
+</body>
+
+</html>
