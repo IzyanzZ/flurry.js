@@ -11,22 +11,28 @@
     "path": "^0.12.7",
     "yarn": "^1.22.17"
   },
-  "name": "flurry.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/IzyanzZ/flurry.js.git"
+  "flurry": {
+    "port": "8888",
+    "lang": "ejs"
   },
+  "name": "flurryjs",
   "version": "1.0.0",
+  "description": "",
   "main": "App.js",
   "scripts": {
     "build": "nodemon App.js"
   },
-  "keywords": [],
-  "author": "IzyanzZ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IzyanzZ/flurry.js.git"
+  },
+  "keywords": [
+    "Flurry"
+  ],
+  "author": "izyanzz",
   "license": "ISC",
-  "description": "",
-  "flurry": {
-    "port": "8888",
-    "lang": "ejs"
-  }
+  "bugs": {
+    "url": "https://github.com/IzyanzZ/flurry.js/issues"
+  },
+  "homepage": "https://github.com/IzyanzZ/flurry.js#readme"
 }
