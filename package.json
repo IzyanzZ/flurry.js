@@ -16,11 +16,12 @@
     "lang": "ejs"
   },
   "name": "flurryjs",
+  "author": "izyanzz",
   "version": "1.0.0",
   "description": "",
-  "main": "App.js",
+  "main": "index.js",
   "scripts": {
-    "build": "nodemon App.js"
+    "build": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,6 @@
   "keywords": [
     "Flurry"
   ],
-  "author": "izyanzz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/IzyanzZ/flurry.js/issues"
