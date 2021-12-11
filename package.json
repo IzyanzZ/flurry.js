@@ -15,7 +15,7 @@
     "port": "8888",
     "lang": "ejs"
   },
-  "name": "flurryjs",
+  "name": "create-flurryjs",
   "author": "izyanzz",
   "version": "1.0.0",
   "description": "",
